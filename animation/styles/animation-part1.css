@@ -1,0 +1,38 @@
+div {
+    width:100px;
+    height: 100px;
+    border: 10px solid silver;
+    border-radius: 30px;
+    animation: my-first-animation 1s infinite;
+
+}
+.box1{
+    background-color: rgb(204,253,225);
+    /* 초기 값 */
+    animation-delay: 0;
+}
+.box2{
+    background-color: rgb(255,221,198);
+    animation-delay: 0.3s;
+   
+}
+.box3{
+    background-color: rgb(186,239,250);
+
+    animation-delay: 0.6s;
+
+   
+}
+@keyframes my-first-animation{
+    0%{
+        font-size: 20px;
+    }
+    50%{
+        width: 300px;
+        font-size: 50px;
+    }
+    100%{
+        width: 100px;
+        font-size: 10px;
+    }
+}
