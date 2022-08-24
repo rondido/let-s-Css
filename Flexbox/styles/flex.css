@@ -1,0 +1,15 @@
+.container{
+    border:5px dashed orange;
+    display: flex;
+}
+
+.item{
+    width:50px;
+    height: 50px;
+    background-color: paleturquoise;
+    border:3px solid blue;
+    /* inline 사용시에는 width와 height값을 가질 수 없다 */
+    /*inline-bolock시에는 아이템 사이의 간격이 생긴다.*/
+    /* display: inline-block;
+    float:left; */
+}

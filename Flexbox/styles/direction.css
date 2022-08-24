@@ -1,0 +1,26 @@
+.container{
+    height: 500px;
+    border:5px dashed orange;
+    display: flex;
+    /* row일 경우 item 1,2,3,4,5*/
+    /* row-reverse일 경우 왼쪽에서 
+    오른쪽으로 바뀌고 item 5,4,3,2,1 */
+    /* flex-direction: row-reverse; */
+
+    /* column-reverse일 경우 아래에서 위로 
+    item 5,4,3,2,1 */
+
+    /* column일 경우 아래에서 위에서 아래로 
+    item 1,2,3,4,5 */
+    flex-direction: row;
+}
+
+.item{
+    width:50px;
+    height: 50px;
+    margin: 5px;
+    background-color: paleturquoise;
+    border:3px solid blue;
+    font-size: 30px;
+
+}
