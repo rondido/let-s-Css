@@ -1,0 +1,30 @@
+.container{
+    border:5px dashed orange;
+    display: flex;
+    
+    /* justify-content: flex-start; */
+    /* 시작부분에서 끝인지 시작부분인지 생각 */
+    justify-content: space-between;
+    
+
+    
+}
+
+.item{
+    width:50px;
+    height: 50px;
+    margin: 5px;
+    background-color: paleturquoise;
+    border:3px solid blue;
+    font-size: 30px;    
+}
+
+
+.container:nth-child(1){
+    justify-content: space-between;
+}
+
+.container:nth-child(2){
+    justify-content: space-around;
+}
+
